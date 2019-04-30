@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    margin:20px;
+    height: 100vh;
+}
+
+.first-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 20vh;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.square1,
+.square2,
+.square3 {
+    width: 30%;
+}
+
+.square1 {
+    background-color: red;
+}
+
+.square2 {
+    background-color: blue;
+}
+
+.square3 {
+    background-color: grey;
+}
+
+.second-container {
+    display: flex;
+    padding: 0 15px;
+}
+
+.paragraph {
+    font-size: 1.25em;
+}
+
+.third-container {
+    display: flex;
+    height: 40vh;
+    padding: 15px;
+}
+
+.square4 {
+    background-color: red;
+    width: 25%;
+}
+
+.square5 {
+    background-color: blue;
+    width: 75%;
+}
+
+.fourth-container {
+    display: flex;
+    height: 15vh;
+    padding: 15px;
+}
+
+.square6 {
+    width: 75%;
+    background-color: blue;
+}
+
+.square7,
+.square9 {
+    width: 5%;
+    background-color: red;
+}
+
+.square8 {
+    width: 20%;
+    background-color: grey;
+}
+
